@@ -17,7 +17,7 @@ import java.lang.String;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
+//pada bagian ini yang sangat brperan ialah internal layout dimana internal layout berfungsi agar dapat memenuhi kebutuhan internal pada aplikasi
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_DEVBYTEITEM = 1;
 
