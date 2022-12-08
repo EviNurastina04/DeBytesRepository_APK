@@ -20,7 +20,7 @@ import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
-
+//Berfungsi untuk menghubungkan database pada apk
 /**
  * Binding adapter used to hide the spinner once data is available.
  */
@@ -36,6 +36,7 @@ fun hideIfNetworkError(view: View, isNetWorkError: Boolean, playlist: Any?) {
 /**
  * Binding adapter used to display images from URL using Glide
  */
+ //Menambahkan URL gambar
 @BindingAdapter("imageUrl")
 fun setImageUrl(imageView: ImageView, url: String) {
     Glide.with(imageView.context).load(url).into(imageView)
