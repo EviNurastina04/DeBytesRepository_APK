@@ -20,7 +20,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.android.devbyteviewer.domain.DevByteVideo
 
-
+//Database yang ada pada aplikasi berfungsi ungtuk mengkoneksikan aplikasi dan memproses data data yang akan disimpan 
 /**
  * Database entities go in this file. These are responsible for reading and writing from the
  * database.
